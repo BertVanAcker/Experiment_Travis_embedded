@@ -8,13 +8,9 @@ install:
 - pip install -U platformio
 
 env:
-- BOARD=uno
-#- BOARD=leonardo
-#- BOARD=megaatmega2560
-- BOARD=due
 
 script:
 - set -eo pipefail;
   for e in src/*; do
-    platformio run --board=$BOARD --lib=. $e/*;
+    platformio run --lib=. $e/*;
   done
