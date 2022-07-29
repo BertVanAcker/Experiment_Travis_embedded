@@ -14,4 +14,4 @@ install:
     - pio update
 
 script:
-    - pio run -e uno ;-e <ID_2> -e <ID_N>   for multiple environments
+    - pio run -e uno
