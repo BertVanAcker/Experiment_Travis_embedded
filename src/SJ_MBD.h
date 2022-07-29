@@ -4,7 +4,6 @@
 *                                          DEVICE SPECIFIC DEFINES
 ***********************************************************************************************************************/
 #define DEVICE_ID ARDUINO_ID
-
 #define AT_ANALOG 3
 #define AT_MODE_NOT_SET 255
 #define MAX_DIGITAL_PINS_SUPPORTED 20
