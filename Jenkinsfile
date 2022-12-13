@@ -1,8 +1,5 @@
 pipeline {
   agent any
-  environment {
-        PATH="~/.platformio"
-  }
 stages{
   stage('Install Platformio') {
         steps {
