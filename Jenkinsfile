@@ -3,6 +3,7 @@ pipeline {
   environment {
         PATH="~/.platformio"
   }
+stages{
   stage('Install Platformio') {
         steps {
             sh 'python -m pip install -U platformio'
