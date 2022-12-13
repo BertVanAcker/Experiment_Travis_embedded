@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+        PATH="~/.platformio"
+  }
   stages {
     stage('version') {
       steps {
